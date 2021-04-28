@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/Demo04/Demo04",
+    "pages/Demo03/Demo03",
+    "pages/Demo02/Demo02",
+    "pages/Demo01/Demo01",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/buyList/buy",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "尧尧小店",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#0094aa"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_.png"
+    },
+    {
+      "pagePath": "pages/buyList/buy",
+      "text": "购物车",
+      "iconPath": "image/buy.png",
+      "selectedIconPath": "image/buy_.png"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "image/search.png",
+      "selectedIconPath": "image/search_.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath": "image/user.png",
+      "selectedIconPath": "image/user_.png"
+    }],
+    "color": "#000000",
+    "selectedColor": "#01dcff",
+    "backgroundColor": "#0094aa"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
